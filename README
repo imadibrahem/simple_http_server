@@ -1,0 +1,14 @@
+This is my first try on doing a simple HTTP Web Server in Python
+
+In the repository there are a hello_world.py and a static_file_server.py
+
+USAGE:
+	The hello world server can be started with:
+		./hello_world.py -or- python3 hello_world.py
+
+	then go to http://localhost:8080/ and you should see "Hello, World!" there!
+
+	The static file server serves all html files that are in the ./www/ directory and subdirectories
+	to start it: 
+		./static_file_server.py -or- python3 static_file_server.py
+
